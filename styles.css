@@ -1,0 +1,39 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+    background-color: rgb(249, 249, 249);
+}
+.navbar-inverse {
+    background-color: #222222;
+    border-color: #080808;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    color: #ccc;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+}
+footer address {
+    margin-top: 10px;
+    font-style: normal;
+}
+footer .social-links a {
+    color: #ccc;
+    margin: 0 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer .social-links a:hover {
+    color: white;
+}
