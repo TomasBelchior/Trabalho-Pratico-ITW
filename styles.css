@@ -10,6 +10,48 @@ body {
 .navbar-brand, .nav-link {
     color: white !important;
 }
+.carousel-inner .item {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-caption {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.intro-block {
+    padding: 40px 0;
+    background-color: rgb(249, 249, 249);
+}
+.intro-block img {
+    max-width: 100%;
+    height: auto;
+}
+.intro-block .row {
+    display: flex;
+    align-items: center;
+}
+.courses-section, .media-section {
+    padding: 40px 0;
+    background-color: rgb(240, 240, 240);
+}
+.courses-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.courses-section .col-md-3 {
+    text-align: center;
+}
+.courses-section img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 footer {
     background-color: #222;
     color: white;
@@ -36,4 +78,223 @@ footer .social-links a {
 }
 footer .social-links a:hover {
     color: white;
+}
+@media (max-width: 768px) {
+    .carousel-inner .item {
+        height: 250px;
+    }
+    .intro-block {
+        text-align: center;
+    }
+    .intro-block img {
+        margin-bottom: 20px;
+    }
+}
+.courses-detail-section {
+    padding: 40px 0;
+    background-color: rgb(240, 240, 240);
+}
+.courses-detail-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.course-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.course-item img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+}
+.course-item h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.course-item p {
+    text-align: center;
+}
+.course-item .btn {
+    display: block;
+    margin: 15px auto 0;
+    width: fit-content;
+}
+@media (max-width: 768px) {
+    .course-item {
+        padding: 15px;
+    }
+    .course-item img {
+        width: 120px;
+        height: 120px;
+    }
+}
+.authors-section {
+    padding: 40px 0;
+    background-color: rgb(240, 240, 240);
+}
+.authors-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.author-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.author-item img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+}
+.author-item h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.author-item p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.author-item .cv-info {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.author-item .cv-info p {
+    margin: 5px 0;
+}
+.author-item .social-links {
+    text-align: center;
+}
+.author-item .social-links a {
+    color: #222;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.author-item .social-links a:hover {
+    color: #337ab7;
+}
+@media (max-width: 768px) {
+    .author-item {
+        padding: 15px;
+    }
+    .author-item img {
+        width: 120px;
+        height: 120px;
+    }
+}
+.contact-section {
+    padding: 40px 0;
+    background-color: rgb(240, 240, 240);
+}
+.contact-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+.contact-form label {
+    font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+.contact-form .btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact-info h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-info p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-info .social-links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-info .social-links a {
+    color: #222;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.contact-info .social-links a:hover {
+    color: #337ab7;
+}
+.contact-info .map {
+    text-align: center;
+}
+.contact-info .map iframe {
+    width: 100%;
+    height: 250px;
+    border: 0;
+    border-radius: 8px;
+}
+@media (max-width: 768px) {
+    .contact-form,
+    .contact-info {
+        padding: 15px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        padding: 8px;
+    }
+    .contact-info .map iframe {
+        height: 200px;
+    }
+}
+.media-section {
+    padding: 20px 0;
+    text-align: center;
+}
+.media-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.video-container, .audio-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+video, audio {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
